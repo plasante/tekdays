@@ -18,7 +18,9 @@ class BootStrap {
 											   ''')
 		
 		if (!event1.save()) {
-			
+			event1.errors.allErrors.each { error ->
+				println "An error occured with event1: ${error}"
+			}
 		}
 		
 		def event2 = new TekEvent()
