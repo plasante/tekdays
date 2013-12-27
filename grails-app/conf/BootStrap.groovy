@@ -23,7 +23,17 @@ class BootStrap {
 			}
 		}
 		
-		def event2 = new TekEvent()
+		def event2 = new TekEvent(name: 'Perl Before Swing',
+								  city: 'Austin, MN',
+								  organizer: 'John Deere',
+								  venue: 'SPAM Museum',
+								  startDate: new Date('9/1/2014'),
+								  endDate: new Date('9/1/2014'),
+								  description: '''
+												Join the Perl programmers of the Pork Producers
+												of America as we hone our skill and ham it up
+												a bit.
+											   ''')
 		
 		if (!event2.save()) {
 			
