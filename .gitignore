@@ -18,8 +18,8 @@ idea
 stacktrace.log
 /dist
 /idea-target
-/target
-/target-eclipse
+target/*
+target-eclipse/*
 /build
 /grails.iws
 .gradle
