@@ -1,0 +1,10 @@
+Testsuite: tekdays.TekEventTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.844 sec
+------------- Standard Output ---------------
+--Output from testToStrind--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testToStrind--
+------------- ---------------- ---------------
+
+Testcase: testToStrind took 0.811 sec
