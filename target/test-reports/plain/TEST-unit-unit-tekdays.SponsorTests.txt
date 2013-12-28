@@ -1,5 +1,5 @@
-Testsuite: tekdays.TekEventControllerTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.249 sec
+Testsuite: tekdays.SponsorTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.199 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.249 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.166 sec
+Testcase: testSomething took 0.079 sec

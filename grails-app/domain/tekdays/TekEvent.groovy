@@ -3,11 +3,15 @@ package tekdays
 class TekEvent {
 	String city
 	String name
-	String organizer
+	TekUser organizer	// A TekEvent has a TekUser, but the TekUser doesn't know anything about the TekEvent.
 	String venue
 	Date startDate
 	Date endDate
 	String description
+	
+	static hasMany = [volunteers: TekUser, 
+					  respondents: String,
+					  sponsorships: Sponsorship]
 	
 	String toString() {
 		"$name, $city"

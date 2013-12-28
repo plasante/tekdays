@@ -13,7 +13,7 @@ class TekEventTests {
 	void testToStrind() {
 		def tekEvent = new TekEvent(name: 'Groovy One',
 									city: 'San Francisco, CA',
-									organizer: 'John Doe',
+									organizer: [fullName: 'John Doe'] as TekUser, 	// We mock the organizer with a Map
 									venue: 'Moscone Center',
 									startDate: new Date('6/2/2014'),
 									endDate: new Date('6/5/2014'),
