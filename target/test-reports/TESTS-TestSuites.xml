@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="0" name="SponsorControllerTests" package="tekdays" tests="1" time="1.583" timestamp="2013-12-28T18:24:37">
+  <testsuite errors="0" failures="0" hostname="plasante-PC" id="0" name="MessageTests" package="tekdays" tests="1" time="1.035" timestamp="2014-01-02T14:16:26">
       <properties />
 
-      <testcase classname="tekdays.SponsorControllerTests" name="testSomething" time="1.323" />
+      <testcase classname="tekdays.MessageTests" name="testSomething" time="0.612" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -12,10 +12,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="1" name="SponsorTests" package="tekdays" tests="1" time="0.199" timestamp="2013-12-28T18:24:39">
+  <testsuite errors="0" failures="0" hostname="plasante-PC" id="1" name="SponsorControllerTests" package="tekdays" tests="1" time="1.335" timestamp="2014-01-02T14:16:27">
       <properties />
 
-      <testcase classname="tekdays.SponsorTests" name="testSomething" time="0.079" />
+      <testcase classname="tekdays.SponsorControllerTests" name="testSomething" time="1.264" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -24,10 +24,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="2" name="SponsorshipTests" package="tekdays" tests="1" time="0.678" timestamp="2013-12-28T18:24:39">
+  <testsuite errors="0" failures="0" hostname="plasante-PC" id="2" name="SponsorTests" package="tekdays" tests="1" time="0.221" timestamp="2014-01-02T14:16:28">
       <properties />
 
-      <testcase classname="tekdays.SponsorshipTests" name="testSomething" time="0.6" />
+      <testcase classname="tekdays.SponsorTests" name="testSomething" time="0.114" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -36,10 +36,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="3" name="TekEventControllerTests" package="tekdays" tests="1" time="0.249" timestamp="2013-12-28T18:24:40">
+  <testsuite errors="0" failures="0" hostname="plasante-PC" id="3" name="SponsorshipTests" package="tekdays" tests="1" time="0.179" timestamp="2014-01-02T14:16:28">
       <properties />
 
-      <testcase classname="tekdays.TekEventControllerTests" name="testSomething" time="0.166" />
+      <testcase classname="tekdays.SponsorshipTests" name="testSomething" time="0.106" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -48,10 +48,34 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="4" name="TekEventTests" package="tekdays" tests="1" time="0.381" timestamp="2013-12-28T18:24:40">
+  <testsuite errors="0" failures="0" hostname="plasante-PC" id="4" name="TaskTests" package="tekdays" tests="1" time="0.264" timestamp="2014-01-02T14:16:29">
       <properties />
 
-      <testcase classname="tekdays.TekEventTests" name="testToStrind" time="0.236" />
+      <testcase classname="tekdays.TaskTests" name="testSomething" time="0.092" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="plasante-PC" id="5" name="TekEventControllerTests" package="tekdays" tests="1" time="0.295" timestamp="2014-01-02T14:16:29">
+      <properties />
+
+      <testcase classname="tekdays.TekEventControllerTests" name="testSomething" time="0.196" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="plasante-PC" id="6" name="TekEventTests" package="tekdays" tests="1" time="0.29" timestamp="2014-01-02T14:16:29">
+      <properties />
+
+      <testcase classname="tekdays.TekEventTests" name="testToStrind" time="0.178" />
 
       <system-out><![CDATA[--Output from testToStrind--
 ]]></system-out>
@@ -60,10 +84,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="5" name="TekUserControllerTests" package="tekdays" tests="1" time="0.273" timestamp="2013-12-28T18:24:40">
+  <testsuite errors="0" failures="0" hostname="plasante-PC" id="7" name="TekUserControllerTests" package="tekdays" tests="1" time="0.34" timestamp="2014-01-02T14:16:30">
       <properties />
 
-      <testcase classname="tekdays.TekUserControllerTests" name="testSomething" time="0.191" />
+      <testcase classname="tekdays.TekUserControllerTests" name="testSomething" time="0.262" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -72,10 +96,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="6" name="TekUserTests" package="tekdays" tests="1" time="0.088" timestamp="2013-12-28T18:24:40">
+  <testsuite errors="0" failures="0" hostname="plasante-PC" id="8" name="TekUserTests" package="tekdays" tests="1" time="0.064" timestamp="2014-01-02T14:16:30">
       <properties />
 
-      <testcase classname="tekdays.TekUserTests" name="testSomething" time="0.085" />
+      <testcase classname="tekdays.TekUserTests" name="testSomething" time="0.061" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
