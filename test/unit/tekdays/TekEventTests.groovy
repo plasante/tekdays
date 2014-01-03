@@ -10,7 +10,7 @@ import org.junit.*
  */
 @TestFor(TekEvent)
 class TekEventTests {
-	void testToStrind() {
+	void testToString() {
 		def tekEvent = new TekEvent(name: 'Groovy One',
 									city: 'San Francisco, CA',
 									organizer: [fullName: 'John Doe'] as TekUser, 	// We mock the organizer with a Map

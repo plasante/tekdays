@@ -11,8 +11,9 @@ class SponsorshipControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        controller.params.event = new TekEvent()
+		controller.params.sponsor = new Sponsor(name: 'name', website: 'website')
+		controller.params.contributionType = 'Cash'
     }
 
     void testIndex() {
@@ -101,7 +102,7 @@ class SponsorshipControllerTests {
 
         // test invalid parameters in update
         params.id = sponsorship.id
-        //TODO: add invalid values to params object
+        params.event = null
 
         controller.update()
 

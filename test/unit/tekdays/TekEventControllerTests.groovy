@@ -11,8 +11,10 @@ class TekEventControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+		params.city = 'city'
+		params.name = 'name'
+        controller.params.organizer = new TekUser()
+		params.respondents = 'respondent'
     }
 
     void testIndex() {
@@ -101,7 +103,7 @@ class TekEventControllerTests {
 
         // test invalid parameters in update
         params.id = tekEvent.id
-        //TODO: add invalid values to params object
+        params.city = null
 
         controller.update()
 

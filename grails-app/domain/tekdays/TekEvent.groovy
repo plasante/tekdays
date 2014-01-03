@@ -20,13 +20,13 @@ class TekEvent {
 	}
 	
     static constraints = {
-		name()
-		city()
-		description(maxSize:5000)
-		organizer()
-		venue()
-		startDate()
-		endDate()
+		name(nullable: false)
+		city(nullable: false)
+		description(nullable: true, maxSize: 5000)
+		organizer(nullable: true)
+		venue(nullable: true)
+		startDate(nullable: true)
+		endDate(nullable: true)
 		volunteers(nullable: true)
 		sponsorships(nullable: true)
 		tasks(nullable: true)

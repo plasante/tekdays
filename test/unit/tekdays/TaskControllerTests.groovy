@@ -11,8 +11,10 @@ class TaskControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params.title = 'title'
+		params.notes = 'notes'
+		params.assignedTo = new TekUser()
+		params.event = new TekEvent()
     }
 
     void testIndex() {
@@ -101,7 +103,7 @@ class TaskControllerTests {
 
         // test invalid parameters in update
         params.id = task.id
-        //TODO: add invalid values to params object
+        params.title = ''
 
         controller.update()
 

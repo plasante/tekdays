@@ -11,10 +11,10 @@ class TekUser {
 	String toString() { fullName }
 	
     static constraints = {
-		fullName()
-		userName()
-		email()
-		website()
-		bio(maxSize: 5000)
+		fullName(nullable: false)
+		userName(nullable: false)
+		email(nullable: true)
+		website(nullable: true)
+		bio(nullable: true, maxSize: 5000)
     }
 }
