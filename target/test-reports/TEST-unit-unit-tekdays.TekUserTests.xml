@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TekUserTests" tests="1" time="0.064" timestamp="2014-01-02T14:16:30">
-  <properties />
-  <testcase classname="tekdays.TekUserTests" name="testSomething" time="0.061" />
-  <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-  <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-</testsuite>
