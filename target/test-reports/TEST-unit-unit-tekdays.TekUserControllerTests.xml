@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TekUserControllerTests" tests="8" time="0.939" timestamp="2014-01-03T15:48:39">
+  <properties />
+  <testcase classname="tekdays.TekUserControllerTests" name="testShow" time="0.332" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testEdit" time="0.078" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testUpdate" time="0.075" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testDelete" time="0.069" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testCreate" time="0.061" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testSave" time="0.065" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testList" time="0.059" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testIndex" time="0.088" />
+  <system-out><![CDATA[--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testIndex--
+]]></system-out>
+  <system-err><![CDATA[--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testIndex--
+]]></system-err>
+</testsuite>

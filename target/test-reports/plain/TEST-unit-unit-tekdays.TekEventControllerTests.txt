@@ -1,0 +1,31 @@
+Testsuite: tekdays.TekEventControllerTests
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.966 sec
+------------- Standard Output ---------------
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testIndex--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testIndex--
+------------- ---------------- ---------------
+
+Testcase: testShow took 0.348 sec
+Testcase: testEdit took 0.108 sec
+Testcase: testUpdate took 0.071 sec
+Testcase: testDelete took 0.066 sec
+Testcase: testCreate took 0.06 sec
+Testcase: testSave took 0.068 sec
+Testcase: testList took 0.053 sec
+Testcase: testIndex took 0.072 sec

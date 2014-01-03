@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.SponsorTests" tests="1" time="0.219" timestamp="2014-01-03T15:48:36">
+  <properties />
+  <testcase classname="tekdays.SponsorTests" name="testSomething" time="0.067" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

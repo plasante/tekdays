@@ -1,0 +1,31 @@
+Testsuite: tekdays.SponsorControllerTests
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1.369 sec
+------------- Standard Output ---------------
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testIndex--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+--Output from testCreate--
+--Output from testSave--
+--Output from testList--
+--Output from testIndex--
+------------- ---------------- ---------------
+
+Testcase: testShow took 0.503 sec
+Testcase: testEdit took 0.109 sec
+Testcase: testUpdate took 0.129 sec
+Testcase: testDelete took 0.103 sec
+Testcase: testCreate took 0.078 sec
+Testcase: testSave took 0.109 sec
+Testcase: testList took 0.095 sec
+Testcase: testIndex took 0.08 sec
