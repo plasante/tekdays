@@ -6,8 +6,6 @@ import tekdays.TekUser
 class BootStrap {
 
     def init = { servletContext ->
-		// To make sure this code will be run only once.
-		if (!TekEvent.get(1)) {
 			new TekUser(fullName: 'John Doe',
 						userName: 'jdoe',
 						password: '12345',
@@ -104,7 +102,6 @@ class BootStrap {
 			g1.addToSponsorships(sp1)
 			g1.addToSponsorships(sp2)
 			g1.save()
-		}
     }
 	
     def destroy = {

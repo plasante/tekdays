@@ -25,7 +25,6 @@ class MessageController {
             render(view: "create", model: [messageInstance: messageInstance])
             return
         }
-
         flash.message = message(code: 'default.created.message', args: [message(code: 'message.label', default: 'Message'), messageInstance.id])
         redirect(action: "show", id: messageInstance.id)
     }

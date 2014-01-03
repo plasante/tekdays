@@ -1,110 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="0" name="MessageTests" package="tekdays" tests="1" time="1.035" timestamp="2014-01-02T14:16:26">
+  <testsuite errors="0" failures="0" hostname="plasante-PC" id="0" name="MessageControllerTests" package="tekdays" tests="8" time="3.826" timestamp="2014-01-03T15:08:40">
       <properties />
 
-      <testcase classname="tekdays.MessageTests" name="testSomething" time="0.612" />
+      <testcase classname="tekdays.MessageControllerTests" name="testEdit" time="2.561" />
 
-      <system-out><![CDATA[--Output from testSomething--
+      <testcase classname="tekdays.MessageControllerTests" name="testShow" time="0.099" />
+
+      <testcase classname="tekdays.MessageControllerTests" name="testIndex" time="0.086" />
+
+      <testcase classname="tekdays.MessageControllerTests" name="testCreate" time="0.087" />
+
+      <testcase classname="tekdays.MessageControllerTests" name="testDelete" time="0.573" />
+
+      <testcase classname="tekdays.MessageControllerTests" name="testSave" time="0.138" />
+
+      <testcase classname="tekdays.MessageControllerTests" name="testUpdate" time="0.147" />
+
+      <testcase classname="tekdays.MessageControllerTests" name="testList" time="0.092" />
+
+      <system-out><![CDATA[--Output from testEdit--
+--Output from testShow--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testDelete--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testList--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="1" name="SponsorControllerTests" package="tekdays" tests="1" time="1.335" timestamp="2014-01-02T14:16:27">
-      <properties />
-
-      <testcase classname="tekdays.SponsorControllerTests" name="testSomething" time="1.264" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="2" name="SponsorTests" package="tekdays" tests="1" time="0.221" timestamp="2014-01-02T14:16:28">
-      <properties />
-
-      <testcase classname="tekdays.SponsorTests" name="testSomething" time="0.114" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="3" name="SponsorshipTests" package="tekdays" tests="1" time="0.179" timestamp="2014-01-02T14:16:28">
-      <properties />
-
-      <testcase classname="tekdays.SponsorshipTests" name="testSomething" time="0.106" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="4" name="TaskTests" package="tekdays" tests="1" time="0.264" timestamp="2014-01-02T14:16:29">
-      <properties />
-
-      <testcase classname="tekdays.TaskTests" name="testSomething" time="0.092" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="5" name="TekEventControllerTests" package="tekdays" tests="1" time="0.295" timestamp="2014-01-02T14:16:29">
-      <properties />
-
-      <testcase classname="tekdays.TekEventControllerTests" name="testSomething" time="0.196" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="6" name="TekEventTests" package="tekdays" tests="1" time="0.29" timestamp="2014-01-02T14:16:29">
-      <properties />
-
-      <testcase classname="tekdays.TekEventTests" name="testToStrind" time="0.178" />
-
-      <system-out><![CDATA[--Output from testToStrind--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testToStrind--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="7" name="TekUserControllerTests" package="tekdays" tests="1" time="0.34" timestamp="2014-01-02T14:16:30">
-      <properties />
-
-      <testcase classname="tekdays.TekUserControllerTests" name="testSomething" time="0.262" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="plasante-PC" id="8" name="TekUserTests" package="tekdays" tests="1" time="0.064" timestamp="2014-01-02T14:16:30">
-      <properties />
-
-      <testcase classname="tekdays.TekUserTests" name="testSomething" time="0.061" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
+      <system-err><![CDATA[--Output from testEdit--
+--Output from testShow--
+--Output from testIndex--
+--Output from testCreate--
+--Output from testDelete--
+--Output from testSave--
+--Output from testUpdate--
+--Output from testList--
 ]]></system-err>
 
   </testsuite>

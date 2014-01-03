@@ -6,13 +6,15 @@ import org.junit.*
 import grails.test.mixin.*
 
 @TestFor(MessageController)
-@Mock(Message)
+@Mock([Message, TekUser])
 class MessageControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+		params["subject"] = 'subject'
+		params["content"] = 'content'
+		controller.params.author = new TekUser()
+		controller.params.event = new TekEvent()
     }
 
     void testIndex() {
@@ -34,7 +36,29 @@ class MessageControllerTests {
         assert model.messageInstance != null
     }
 
+	
+//	void testSaveInvalidParams() {
+//		controller.save()
+//		
+//		assert model.messageInstance != null
+//		assert view == '/message/create'
+//	}
+//	
+//	void testSaveValidParams() {
+//		params["subject"] = 'subject'
+//		params["content"] = 'content'
+//		controller.params.author = new TekUser()
+//		controller.params.event = new TekEvent()
+//		
+//		controller.save()
+//		
+//		assert response.redirectedUrl == '/message/show/1'
+//		assert controller.flash.message != null
+//		assert Message.count == 1
+//	}
+	
     void testSave() {
+		// Testing with invalid parameters
         controller.save()
 
         assert model.messageInstance != null
@@ -42,6 +66,7 @@ class MessageControllerTests {
 
         response.reset()
 
+		// Testing with valid parameters
         populateValidParams(params)
         controller.save()
 
@@ -101,7 +126,7 @@ class MessageControllerTests {
 
         // test invalid parameters in update
         params.id = message.id
-        //TODO: add invalid values to params object
+        params.subject = ''
 
         controller.update()
 
