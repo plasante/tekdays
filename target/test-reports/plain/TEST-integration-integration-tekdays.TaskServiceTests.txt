@@ -1,0 +1,10 @@
+Testsuite: tekdays.TaskServiceTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.286 sec
+------------- Standard Output ---------------
+--Output from testAddDefaultTasks--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testAddDefaultTasks--
+------------- ---------------- ---------------
+
+Testcase: testAddDefaultTasks took 0.286 sec

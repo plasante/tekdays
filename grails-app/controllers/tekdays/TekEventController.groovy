@@ -8,6 +8,8 @@ class TekEventController {
 	// The delete, save, and update actions only accept POST requests
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
+	def taskService // An instance of that service class will be injected into our controller at runtime.
+	
 	// default action
     def index() {
 		// redirect(controller: "...", action: "...", params: "...")
@@ -33,7 +35,8 @@ class TekEventController {
         }
 
         flash.message = message(code: 'default.created.message', args: [message(code: 'tekEvent.label', default: 'TekEvent'), tekEventInstance.id])
-        redirect(action: "show", id: tekEventInstance.id)
+        taskService.addDefaultTasks(tekEventInstance)
+		redirect(action: "show", id: tekEventInstance.id)
     }
 
     def show(Long id) {

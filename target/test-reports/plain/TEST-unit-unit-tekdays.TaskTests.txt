@@ -1,5 +1,5 @@
 Testsuite: tekdays.TaskTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.183 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.149 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.183 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.067 sec
+Testcase: testSomething took 0.048 sec

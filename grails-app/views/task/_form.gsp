@@ -42,3 +42,10 @@
 	<g:select id="event" name="event.id" from="${tekdays.TekEvent.list()}" optionKey="id" required="" value="${taskInstance?.event?.id}" class="many-to-one"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: taskInstance, field: 'completed', 'error')} required">
+	<label for="title">
+		<g:message code="task.completed.label" default="Completed" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:checkBox name="completed" required="" value="${taskInstance?.completed}"/>
+</div>

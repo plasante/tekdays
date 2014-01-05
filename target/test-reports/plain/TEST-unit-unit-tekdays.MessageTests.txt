@@ -1,5 +1,5 @@
 Testsuite: tekdays.MessageTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.339 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.188 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.339 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.086 sec
+Testcase: testSomething took 0.066 sec
