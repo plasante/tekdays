@@ -1,31 +1,31 @@
 Testsuite: tekdays.TekUserControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.601 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.824 sec
 ------------- Standard Output ---------------
+--Output from testIndex--
 --Output from testList--
---Output from testShow--
+--Output from testCreate--
 --Output from testSave--
+--Output from testShow--
+--Output from testEdit--
 --Output from testUpdate--
 --Output from testDelete--
---Output from testEdit--
---Output from testCreate--
---Output from testIndex--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
+--Output from testIndex--
 --Output from testList--
---Output from testShow--
+--Output from testCreate--
 --Output from testSave--
+--Output from testShow--
+--Output from testEdit--
 --Output from testUpdate--
 --Output from testDelete--
---Output from testEdit--
---Output from testCreate--
---Output from testIndex--
 ------------- ---------------- ---------------
 
-Testcase: testList took 0.171 sec
-Testcase: testShow took 0.079 sec
-Testcase: testSave took 0.047 sec
-Testcase: testUpdate took 0.067 sec
-Testcase: testDelete took 0.045 sec
-Testcase: testEdit took 0.042 sec
-Testcase: testCreate took 0.039 sec
-Testcase: testIndex took 0.036 sec
+Testcase: testIndex took 0.302 sec
+Testcase: testList took 0.05 sec
+Testcase: testCreate took 0.057 sec
+Testcase: testSave took 0.079 sec
+Testcase: testShow took 0.052 sec
+Testcase: testEdit took 0.052 sec
+Testcase: testUpdate took 0.072 sec
+Testcase: testDelete took 0.056 sec
