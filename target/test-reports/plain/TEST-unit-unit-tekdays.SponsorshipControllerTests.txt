@@ -1,31 +1,31 @@
 Testsuite: tekdays.SponsorshipControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.78 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.772 sec
 ------------- Standard Output ---------------
---Output from testEdit--
---Output from testUpdate--
---Output from testShow--
---Output from testSave--
---Output from testDelete--
---Output from testList--
 --Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testUpdate--
+--Output from testList--
+--Output from testDelete--
+--Output from testEdit--
 --Output from testIndex--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testEdit--
---Output from testUpdate--
---Output from testShow--
---Output from testSave--
---Output from testDelete--
---Output from testList--
 --Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testUpdate--
+--Output from testList--
+--Output from testDelete--
+--Output from testEdit--
 --Output from testIndex--
 ------------- ---------------- ---------------
 
-Testcase: testEdit took 0.241 sec
-Testcase: testUpdate took 0.081 sec
-Testcase: testShow took 0.113 sec
-Testcase: testSave took 0.066 sec
-Testcase: testDelete took 0.051 sec
-Testcase: testList took 0.041 sec
-Testcase: testCreate took 0.041 sec
-Testcase: testIndex took 0.047 sec
+Testcase: testCreate took 0.195 sec
+Testcase: testSave took 0.107 sec
+Testcase: testShow took 0.1 sec
+Testcase: testUpdate took 0.059 sec
+Testcase: testList took 0.05 sec
+Testcase: testDelete took 0.055 sec
+Testcase: testEdit took 0.058 sec
+Testcase: testIndex took 0.055 sec
