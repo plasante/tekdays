@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TaskTests" tests="1" time="0.143" timestamp="2014-01-11T16:56:16">
+<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TaskTests" tests="1" time="0.165" timestamp="2014-01-12T14:42:36">
   <properties />
-  <testcase classname="tekdays.TaskTests" name="testSomething" time="0.052" />
+  <testcase classname="tekdays.TaskTests" name="testSomething" time="0.045" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

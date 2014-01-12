@@ -1,5 +1,5 @@
 Testsuite: tekdays.SponsorTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.146 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.145 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.146 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.048 sec
+Testcase: testSomething took 0.051 sec

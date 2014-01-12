@@ -1,31 +1,31 @@
 Testsuite: tekdays.TaskControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1.314 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.689 sec
 ------------- Standard Output ---------------
---Output from testIndex--
---Output from testList--
---Output from testCreate--
---Output from testSave--
---Output from testShow--
 --Output from testEdit--
 --Output from testUpdate--
+--Output from testShow--
+--Output from testSave--
 --Output from testDelete--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testIndex--
---Output from testList--
---Output from testCreate--
---Output from testSave--
---Output from testShow--
 --Output from testEdit--
 --Output from testUpdate--
+--Output from testShow--
+--Output from testSave--
 --Output from testDelete--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
 ------------- ---------------- ---------------
 
-Testcase: testIndex took 0.257 sec
-Testcase: testList took 0.044 sec
-Testcase: testCreate took 0.063 sec
-Testcase: testSave took 0.059 sec
-Testcase: testShow took 0.044 sec
-Testcase: testEdit took 0.049 sec
-Testcase: testUpdate took 0.05 sec
-Testcase: testDelete took 0.673 sec
+Testcase: testEdit took 0.281 sec
+Testcase: testUpdate took 0.068 sec
+Testcase: testShow took 0.046 sec
+Testcase: testSave took 0.045 sec
+Testcase: testDelete took 0.045 sec
+Testcase: testList took 0.038 sec
+Testcase: testCreate took 0.04 sec
+Testcase: testIndex took 0.038 sec

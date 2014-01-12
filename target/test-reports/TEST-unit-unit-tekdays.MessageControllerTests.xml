@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.MessageControllerTests" tests="8" time="4.008" timestamp="2014-01-11T16:56:09">
+<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.MessageControllerTests" tests="8" time="4.524" timestamp="2014-01-12T14:42:29">
   <properties />
-  <testcase classname="tekdays.MessageControllerTests" name="testIndex" time="2.157" />
-  <testcase classname="tekdays.MessageControllerTests" name="testList" time="0.723" />
-  <testcase classname="tekdays.MessageControllerTests" name="testCreate" time="0.175" />
-  <testcase classname="tekdays.MessageControllerTests" name="testSave" time="0.425" />
-  <testcase classname="tekdays.MessageControllerTests" name="testShow" time="0.155" />
-  <testcase classname="tekdays.MessageControllerTests" name="testEdit" time="0.083" />
-  <testcase classname="tekdays.MessageControllerTests" name="testUpdate" time="0.105" />
-  <testcase classname="tekdays.MessageControllerTests" name="testDelete" time="0.089" />
-  <system-out><![CDATA[--Output from testIndex--
+  <testcase classname="tekdays.MessageControllerTests" name="testEdit" time="3.042" />
+  <testcase classname="tekdays.MessageControllerTests" name="testUpdate" time="0.215" />
+  <testcase classname="tekdays.MessageControllerTests" name="testShow" time="0.115" />
+  <testcase classname="tekdays.MessageControllerTests" name="testSave" time="0.59" />
+  <testcase classname="tekdays.MessageControllerTests" name="testDelete" time="0.103" />
+  <testcase classname="tekdays.MessageControllerTests" name="testList" time="0.172" />
+  <testcase classname="tekdays.MessageControllerTests" name="testCreate" time="0.068" />
+  <testcase classname="tekdays.MessageControllerTests" name="testIndex" time="0.095" />
+  <system-out><![CDATA[--Output from testEdit--
+--Output from testUpdate--
+--Output from testShow--
+--Output from testSave--
+--Output from testDelete--
 --Output from testList--
 --Output from testCreate--
---Output from testSave--
---Output from testShow--
---Output from testEdit--
---Output from testUpdate--
---Output from testDelete--
+--Output from testIndex--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testIndex--
+  <system-err><![CDATA[--Output from testEdit--
+--Output from testUpdate--
+--Output from testShow--
+--Output from testSave--
+--Output from testDelete--
 --Output from testList--
 --Output from testCreate--
---Output from testSave--
---Output from testShow--
---Output from testEdit--
---Output from testUpdate--
---Output from testDelete--
+--Output from testIndex--
 ]]></system-err>
 </testsuite>

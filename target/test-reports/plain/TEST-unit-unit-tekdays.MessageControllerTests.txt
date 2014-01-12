@@ -1,31 +1,31 @@
 Testsuite: tekdays.MessageControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 4.008 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 4.524 sec
 ------------- Standard Output ---------------
---Output from testIndex--
---Output from testList--
---Output from testCreate--
---Output from testSave--
---Output from testShow--
 --Output from testEdit--
 --Output from testUpdate--
+--Output from testShow--
+--Output from testSave--
 --Output from testDelete--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testIndex--
---Output from testList--
---Output from testCreate--
---Output from testSave--
---Output from testShow--
 --Output from testEdit--
 --Output from testUpdate--
+--Output from testShow--
+--Output from testSave--
 --Output from testDelete--
+--Output from testList--
+--Output from testCreate--
+--Output from testIndex--
 ------------- ---------------- ---------------
 
-Testcase: testIndex took 2.157 sec
-Testcase: testList took 0.723 sec
-Testcase: testCreate took 0.175 sec
-Testcase: testSave took 0.425 sec
-Testcase: testShow took 0.155 sec
-Testcase: testEdit took 0.083 sec
-Testcase: testUpdate took 0.105 sec
-Testcase: testDelete took 0.089 sec
+Testcase: testEdit took 3.042 sec
+Testcase: testUpdate took 0.215 sec
+Testcase: testShow took 0.115 sec
+Testcase: testSave took 0.59 sec
+Testcase: testDelete took 0.103 sec
+Testcase: testList took 0.172 sec
+Testcase: testCreate took 0.068 sec
+Testcase: testIndex took 0.095 sec
