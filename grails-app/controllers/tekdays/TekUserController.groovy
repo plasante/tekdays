@@ -7,14 +7,19 @@ class TekUserController {
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
 	def login = {
-		
+		if (params.cName) {
+			return [cName: params.cName, aName: params.aName]
+		}
 	}
 	
 	def validate = {
 		def user = TekUser.findByUserName(params.username)
 		if (user && user.password == params.password) {
 			session.user = user
-			redirect(controller: 'tekEvent', action: 'list')
+			if (params.cName)
+				redirect(controller: params.cName, action: params.aName)
+			else
+				redirect(controller: 'tekEvent', action: 'list')
 		} else {
 			flash.message = "Invalid username and password."
 			render(view: 'login')
@@ -113,5 +118,10 @@ class TekUserController {
             flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'tekUser.label', default: 'TekUser'), id])
             redirect(action: "show", id: id)
         }
+    }
+    
+    def logout = {
+        session.user = null
+        redirect(uri:'/')
     }
 }

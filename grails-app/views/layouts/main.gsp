@@ -22,6 +22,7 @@
 	<body>
 		<div id="grailsLogo" role="banner">
 			<img src="${resource(dir: 'images', file: 'td_logo.png')}" alt="TekDays"/>
+			<g:loginToggle />
 		</div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>
