@@ -1,8 +1,8 @@
---Output from testCreate--
---Output from testSave--
---Output from testShow--
---Output from testUpdate--
 --Output from testList--
---Output from testDelete--
+--Output from testUpdate--
+--Output from testSave--
 --Output from testEdit--
+--Output from testShow--
+--Output from testDelete--
+--Output from testCreate--
 --Output from testIndex--
