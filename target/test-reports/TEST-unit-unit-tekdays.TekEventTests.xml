@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TekEventTests" tests="1" time="0.179" timestamp="2014-01-18T16:41:28">
+<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TekEventTests" tests="1" time="0.249" timestamp="2014-01-19T13:51:53">
   <properties />
-  <testcase classname="tekdays.TekEventTests" name="testToString" time="0.082" />
+  <testcase classname="tekdays.TekEventTests" name="testToString" time="0.137" />
   <system-out><![CDATA[--Output from testToString--
 ]]></system-out>
   <system-err><![CDATA[--Output from testToString--

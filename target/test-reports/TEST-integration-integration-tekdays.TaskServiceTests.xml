@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TaskServiceTests" tests="1" time="0.29" timestamp="2014-01-18T16:41:37">
+<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TaskServiceTests" tests="1" time="0.402" timestamp="2014-01-19T13:52:03">
   <properties />
-  <testcase classname="tekdays.TaskServiceTests" name="testAddDefaultTasks" time="0.289" />
+  <testcase classname="tekdays.TaskServiceTests" name="testAddDefaultTasks" time="0.4" />
   <system-out><![CDATA[--Output from testAddDefaultTasks--
 ]]></system-out>
   <system-err><![CDATA[--Output from testAddDefaultTasks--

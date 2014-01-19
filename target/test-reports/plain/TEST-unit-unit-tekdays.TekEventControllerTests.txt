@@ -1,31 +1,31 @@
 Testsuite: tekdays.TekEventControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.681 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.679 sec
 ------------- Standard Output ---------------
 --Output from testList--
---Output from testUpdate--
---Output from testSave--
---Output from testEdit--
---Output from testShow--
---Output from testDelete--
---Output from testCreate--
 --Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from testList--
---Output from testUpdate--
---Output from testSave--
---Output from testEdit--
---Output from testShow--
---Output from testDelete--
---Output from testCreate--
 --Output from testIndex--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
 ------------- ---------------- ---------------
 
-Testcase: testList took 0.211 sec
-Testcase: testUpdate took 0.095 sec
-Testcase: testSave took 0.042 sec
-Testcase: testEdit took 0.046 sec
-Testcase: testShow took 0.048 sec
-Testcase: testDelete took 0.054 sec
+Testcase: testList took 0.222 sec
+Testcase: testIndex took 0.064 sec
 Testcase: testCreate took 0.044 sec
-Testcase: testIndex took 0.043 sec
+Testcase: testSave took 0.055 sec
+Testcase: testShow took 0.058 sec
+Testcase: testEdit took 0.047 sec
+Testcase: testUpdate took 0.055 sec
+Testcase: testDelete took 0.047 sec
