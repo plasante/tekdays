@@ -60,7 +60,7 @@
 				interests and passions together for the good of greater geekdom!
     		</p>
     	</div>
-    	
+    	<g:organizerEvents />
     	<div class="homeCell">
     		<h3>Find a Tek Event</h3>
     		<p>
