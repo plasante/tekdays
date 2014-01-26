@@ -17,8 +17,10 @@ class TekUserController {
 		if (user && user.password == params.password) {
 			session.user = user
 			if (params.cName)
+				// returning to the page where we tried to access without being logged in
 				redirect(controller: params.cName, action: params.aName)
 			else
+				// returning to the home page
 				redirect(uri: '/')
 		} else {
 			flash.message = "Invalid username and password."

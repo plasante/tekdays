@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.MessageControllerTests" tests="8" time="2.462" timestamp="2014-01-19T14:14:50">
+<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.MessageControllerTests" tests="8" time="2.398" timestamp="2014-01-26T14:56:30">
   <properties />
-  <testcase classname="tekdays.MessageControllerTests" name="testList" time="1.169" />
-  <testcase classname="tekdays.MessageControllerTests" name="testIndex" time="0.292" />
-  <testcase classname="tekdays.MessageControllerTests" name="testCreate" time="0.192" />
-  <testcase classname="tekdays.MessageControllerTests" name="testSave" time="0.367" />
-  <testcase classname="tekdays.MessageControllerTests" name="testShow" time="0.076" />
-  <testcase classname="tekdays.MessageControllerTests" name="testEdit" time="0.078" />
-  <testcase classname="tekdays.MessageControllerTests" name="testUpdate" time="0.108" />
-  <testcase classname="tekdays.MessageControllerTests" name="testDelete" time="0.092" />
+  <testcase classname="tekdays.MessageControllerTests" name="testList" time="1.114" />
+  <testcase classname="tekdays.MessageControllerTests" name="testIndex" time="0.226" />
+  <testcase classname="tekdays.MessageControllerTests" name="testCreate" time="0.179" />
+  <testcase classname="tekdays.MessageControllerTests" name="testSave" time="0.378" />
+  <testcase classname="tekdays.MessageControllerTests" name="testShow" time="0.098" />
+  <testcase classname="tekdays.MessageControllerTests" name="testEdit" time="0.089" />
+  <testcase classname="tekdays.MessageControllerTests" name="testUpdate" time="0.118" />
+  <testcase classname="tekdays.MessageControllerTests" name="testDelete" time="0.107" />
   <system-out><![CDATA[--Output from testList--
 --Output from testIndex--
 --Output from testCreate--

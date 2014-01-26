@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.SponsorControllerTests" tests="8" time="0.94" timestamp="2014-01-19T14:14:54">
+<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.SponsorControllerTests" tests="8" time="1.519" timestamp="2014-01-26T14:56:32">
   <properties />
-  <testcase classname="tekdays.SponsorControllerTests" name="testList" time="0.286" />
-  <testcase classname="tekdays.SponsorControllerTests" name="testIndex" time="0.076" />
-  <testcase classname="tekdays.SponsorControllerTests" name="testCreate" time="0.096" />
-  <testcase classname="tekdays.SponsorControllerTests" name="testSave" time="0.08" />
-  <testcase classname="tekdays.SponsorControllerTests" name="testShow" time="0.048" />
-  <testcase classname="tekdays.SponsorControllerTests" name="testEdit" time="0.067" />
-  <testcase classname="tekdays.SponsorControllerTests" name="testUpdate" time="0.063" />
-  <testcase classname="tekdays.SponsorControllerTests" name="testDelete" time="0.078" />
+  <testcase classname="tekdays.SponsorControllerTests" name="testList" time="0.896" />
+  <testcase classname="tekdays.SponsorControllerTests" name="testIndex" time="0.121" />
+  <testcase classname="tekdays.SponsorControllerTests" name="testCreate" time="0.078" />
+  <testcase classname="tekdays.SponsorControllerTests" name="testSave" time="0.084" />
+  <testcase classname="tekdays.SponsorControllerTests" name="testShow" time="0.046" />
+  <testcase classname="tekdays.SponsorControllerTests" name="testEdit" time="0.05" />
+  <testcase classname="tekdays.SponsorControllerTests" name="testUpdate" time="0.062" />
+  <testcase classname="tekdays.SponsorControllerTests" name="testDelete" time="0.054" />
   <system-out><![CDATA[--Output from testList--
 --Output from testIndex--
 --Output from testCreate--

@@ -19,6 +19,8 @@ class TekEvent {
 		"$name, $city"
 	}
 	
+	static searchable = true;
+	
     static constraints = {
 		name(nullable: false)
 		city(nullable: false)

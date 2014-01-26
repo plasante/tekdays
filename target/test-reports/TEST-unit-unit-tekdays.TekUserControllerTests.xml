@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TekUserControllerTests" tests="8" time="0.655" timestamp="2014-01-19T14:14:58">
+<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TekUserControllerTests" tests="8" time="0.639" timestamp="2014-01-26T14:56:37">
   <properties />
-  <testcase classname="tekdays.TekUserControllerTests" name="testList" time="0.209" />
-  <testcase classname="tekdays.TekUserControllerTests" name="testIndex" time="0.075" />
-  <testcase classname="tekdays.TekUserControllerTests" name="testCreate" time="0.059" />
-  <testcase classname="tekdays.TekUserControllerTests" name="testSave" time="0.057" />
-  <testcase classname="tekdays.TekUserControllerTests" name="testShow" time="0.04" />
-  <testcase classname="tekdays.TekUserControllerTests" name="testEdit" time="0.04" />
-  <testcase classname="tekdays.TekUserControllerTests" name="testUpdate" time="0.048" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testList" time="0.192" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testIndex" time="0.068" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testCreate" time="0.05" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testSave" time="0.064" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testShow" time="0.041" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testEdit" time="0.041" />
+  <testcase classname="tekdays.TekUserControllerTests" name="testUpdate" time="0.047" />
   <testcase classname="tekdays.TekUserControllerTests" name="testDelete" time="0.045" />
   <system-out><![CDATA[--Output from testList--
 --Output from testIndex--

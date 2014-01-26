@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TaskControllerTests" tests="8" time="1.095" timestamp="2014-01-19T14:14:56">
+<testsuite errors="0" failures="0" hostname="plasante-PC" name="tekdays.TaskControllerTests" tests="8" time="0.657" timestamp="2014-01-26T14:56:35">
   <properties />
-  <testcase classname="tekdays.TaskControllerTests" name="testList" time="0.634" />
-  <testcase classname="tekdays.TaskControllerTests" name="testIndex" time="0.064" />
-  <testcase classname="tekdays.TaskControllerTests" name="testCreate" time="0.057" />
-  <testcase classname="tekdays.TaskControllerTests" name="testSave" time="0.062" />
-  <testcase classname="tekdays.TaskControllerTests" name="testShow" time="0.042" />
-  <testcase classname="tekdays.TaskControllerTests" name="testEdit" time="0.041" />
-  <testcase classname="tekdays.TaskControllerTests" name="testUpdate" time="0.058" />
-  <testcase classname="tekdays.TaskControllerTests" name="testDelete" time="0.046" />
+  <testcase classname="tekdays.TaskControllerTests" name="testList" time="0.185" />
+  <testcase classname="tekdays.TaskControllerTests" name="testIndex" time="0.067" />
+  <testcase classname="tekdays.TaskControllerTests" name="testCreate" time="0.046" />
+  <testcase classname="tekdays.TaskControllerTests" name="testSave" time="0.073" />
+  <testcase classname="tekdays.TaskControllerTests" name="testShow" time="0.05" />
+  <testcase classname="tekdays.TaskControllerTests" name="testEdit" time="0.047" />
+  <testcase classname="tekdays.TaskControllerTests" name="testUpdate" time="0.055" />
+  <testcase classname="tekdays.TaskControllerTests" name="testDelete" time="0.049" />
   <system-out><![CDATA[--Output from testList--
 --Output from testIndex--
 --Output from testCreate--
