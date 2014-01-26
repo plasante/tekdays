@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<projectSuggestions>
+<declaringtype type="DataSource">
+<method isActive="true" isStatic="false" name="dataSource" type="DataSource">
+<parameters useNamedArguments="false"/>
+<doc/>
+</method>
+</declaringtype>
+</projectSuggestions>
